@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none !important;
+    text-decoration: none !important;
+    box-sizing: border-box !important;
+}
+body{
+    background-color: #EDF1F2 !important;
+}
+.my-container{
+    max-width: 1140px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+}
+.box-1{
+    border-radius: 18px;
+        border: 1px solid var(--gray-11, #E8E8EA);
+        background: #FFFFFf;
+        max-width: 280px;
+        padding: 16px;
+}
+button, input, optgroup, select, textarea {
+    border: none;
+    outline: none;
+}
+.box-2{
+    width: 712px;
+        flex-shrink: 0;
+        background-color: #FFFFFf;
+        border-radius: 18px;
+            box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.04), 0px 0px 2px 0px rgba(0, 0, 0, 0.06), 0px 4px 8px 0px rgba(0, 0, 0, 0.04);
+}
+.lines-position{
+    top: 500px;
+    left: -181px;
+    position: relative;
+    overflow: hidden;
+}
+.max-283{
+    max-width: 283px;
+}
+.explore-btn{
+    border-radius: 22px;
+        background: var(--color-p, linear-gradient(147deg, #FFC881 0%, #DA8517 100%));
+        box-shadow: 6px 4px 25px 0px rgba(229, 156, 62, 0.34);
+        padding: 8px 16px;
+}
+.explore-btn-1:hover {
+transform: translateY(-4px);
+transition: all 200ms linear;
+}
+.explore-btn:hover{
+    box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.light-img-position{
+    transform: translateY(55px);
+}
+.light-city-img:hover{
+    transform: translateY(-50px);
+    transition: all 300ms linear;
+}
+.box-3{
+    border-radius: 7px;
+    width: 280px;
+        flex-shrink: 0;
+        border: 1px solid#DA8517;
+}
+.line-1{
+    width: 1px;
+min-height: 59px;
+background: linear-gradient(147deg, #FFC881 0%, #DA8517 100%);
+}
+.icon:hover{
+transform: translateY(-3px);
+}
+.zooom:hover{
+scale: 1.1;
+}
+
+
+
+/* ***********lakshay******** */
+.bg-color {
+    background-color: #edf1f2;
+}
+
+.card {
+    max-width: 319px;
+    min-height: 100px;
+    border-radius: 18px !important;
+    border: none !important;
+    box-shadow: 0px 0px 2px -1px rgb(100 100 100);
+    transition: all 300ms linear;
+    cursor: pointer;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 10px rgb(100 100 100);
+}
+
+.color {
+    color: #DA8517;
+}
+
+.navy {
+    color: #130f26;
+}
+.histroy_card {
+    max-width: 320px;
+    min-height: 447px;
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    border-radius: 18px !important;
+    cursor: pointer;
+    transition: all 500ms linear;
+    box-shadow: 0px 0px 2px -1px rgb(100 100 100);
+}
+
+.histroy_card:hover {
+    box-shadow: 0px 1px 10px rgb(100 100 100);
+}
+
+.histroy_btn {
+    background: linear-gradient(175deg, #FFC881 1%, #DA8517 96%);
+    border-radius: 22px;
+    width: 292px;
+    height: 51px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0px 10px 20px 0px #E59C3E57;
+    transition: 500ms;
+}
+
+.histroy_btn:hover {
+    box-shadow: 0px 5px 15px 0px rgb(174, 118, 54);
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.img {
+    cursor: pointer;
+}
+
+.absolute-1 {
+    position: absolute;
+    top: 70px;
+    left: 8px;
+}
+
+.grey {
+    color: #4F4F4F;
+}
+
+.grey-2 {
+    color: #474749;
+}
+
+.grey-3 {
+    color: #7C7C7C;
+}
+
+.box {
+    border: 1px solid #A8A8A8;
+    border-radius: 4px;
+    height: 25px;
+}
+
+.box select {
+    color: #4F4F4F;
+    border: 1px solid #A8A8A8;
+    border-radius: 12px;
+    border: none;
+    font-size: 12px;
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;
+}
+
+.box::before {
+    content: "\f13a";
+    font-family: FontAwesome;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    font-size: 28px;
+    line-height: 45px;
+    color: rgba(255, 255, 255, 0.5);
+    pointer-events: none;
+
+}
+
+.box select option {
+    padding: 0px;
+}
+
+
+/* *******sachin****** */
+.color-white {
+    color: #ffffff;
+}
+
+.card-1 {
+    height: 72px;
+    border-radius: 0px 0px 18px 18px;
+    background: rgba(106, 106, 106, 0.69);
+    backdrop-filter: blur(4px);
+    position: absolute;
+    bottom: -65%;
+    left: 0px;
+    width: 100%;
+    transition: 700ms ease-in-out all;
+}
+
+.jozo-2 {
+    position: absolute;
+    top: -33%;
+    left: 39%;
+    width: 50px;
+    height: 50px;
+}
+
+.img-radius {
+    overflow: hidden;
+    border-radius: 22px !important;
+}
+
+.overlay-img:hover .card-1 {
+    bottom: 0%;
+}
+
+.cursor-p {
+    cursor: pointer;
+}
+
+
+

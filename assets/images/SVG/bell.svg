@@ -1,0 +1,11 @@
+<svg width="20" height="22" viewBox="0 0 20 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Essentials / bell">
+<path id="Vector" d="M1.33337 15H18.6667M3.33337 15V8.33332C3.33337 4.65142 6.31814 1.66666 10 1.66666C13.6819 1.66666 16.6667 4.65142 16.6667 8.33332V15M7.33337 17V17.6667C7.33337 19.1394 8.52728 20.3333 10 20.3333C11.4728 20.3333 12.6667 19.1394 12.6667 17.6667V17" stroke="url(#paint0_linear_16_914)" stroke-width="1.5"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_16_914" x1="0.0773359" y1="-3.12282" x2="15.9854" y2="24.6982" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFC881"/>
+<stop offset="1" stop-color="#DA8517"/>
+</linearGradient>
+</defs>
+</svg>

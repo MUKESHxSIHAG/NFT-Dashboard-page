@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Libre+Franklin:wght@500;600;700&display=swap%27');
+
+
+
+    :root {
+
+        --ff-inter: 'inter';
+        --ff-franklin: 'libre franklin';
+
+        --fs-xxl: 16px;
+        --fs-xl: 14px;
+        --fs-lg: 12px; 
+        --fs-md: 11px;
+        --fs-sm: 7px;
+
+        --fw-regular: 400;
+        --fw-medium: 500;
+        --fw-semibold: 600;
+        --fw-bold: 700;
+
+        --black-color: ;
+            --primary-color:#da8517;
+            --secondary-color: #474749;
+            --white-color: #FFFFFF;
+            --dark-color: #f66f4d;
+            --light-color: #77757F;
+            --success-color: #ffce82;
+            --info-color: #ffd482;
+            --yes-color: #bdbf60;
+            --gray-color: #7c7c7c;
+            --hold-color: #2E476B;
+            --bright-color: #9498A4;
+    }
+
+    .ff-inter {
+        font-family: var(--ff-inter);
+    }
+
+    .ff-franklin {
+        font-family: var(--ff-franklin);
+    }
+
+    .fs-16 {
+        font-size: var(--fs-xxl);
+    }
+
+    .fs-14 {
+        font-size: var(--fs-xl);
+    }
+
+    .fs-12 {
+        font-size: var(--fs-lg);
+    }
+
+    .fs-11 {
+        font-size: var(--fs-md);
+    }
+
+    .fs-7 {
+        font-size: var(--fs-sm);
+    }
+
+    .fw-400 {
+        font-weight: var(--fw-regular);
+    }
+
+    .fw-500 {
+        font-weight: var(--fw-medium);
+    }
+
+    .fw-600 {
+        font-weight: var(--fw-semibold);
+    }
+
+    .fw-700 {
+        font-weight: var(--fw-bold);
+    }
+
+        .black-color {
+            color: var(--black-color);
+        }
+    
+        .primary-color {
+            color: var(--primary-color);
+        }
+    
+        .secondary-color {
+            color: var(--secondary-color);
+        }
+    
+        .white-color {
+            color: var(--white-color);
+        }
+    
+        .dark-color {
+            color: var(--dark-color);
+        }
+    
+        .light-color {
+            color: var(--light-color);
+        }
+    
+        .success-color {
+            color: var(--success-color);
+        }
+    
+        .info-color {
+            color: var(--info-color);
+        }
+    
+        .yes-color {
+            color: var(--yes-color);
+        }
+    
+        .gray-color {
+            color: var(--gray-color);
+        }
+    
+        .hold-color {
+            color: var(--hold-color);
+        }
+    
+        .bright-color {
+            color: var(--bright-color);
+        }
+    
