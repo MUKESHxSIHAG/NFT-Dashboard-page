@@ -89,7 +89,7 @@ scale: 1.1;
 }
 
 .card {
-    max-width: 319px;
+    /* max-width: 319px; */
     min-height: 100px;
     border-radius: 18px !important;
     border: none !important;
@@ -110,7 +110,7 @@ scale: 1.1;
     color: #130f26;
 }
 .histroy_card {
-    max-width: 320px;
+    /* max-width: 320px; */
     min-height: 447px;
     border: 1px solid #FFFFFF;
     background-color: #FFFFFF;
