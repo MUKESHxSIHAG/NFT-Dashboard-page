@@ -18,12 +18,12 @@
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
 </head>
 
-<body class="light-mode">
+<body class="dark-mode">
     <nav>
         <div id="mySidenav" class="sidenav">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <img src="./assets/images/png/1st-overflow.png" alt="" class="transform-overflow-image">
-            <p class="text-center mt_-100 pointer-cursor"><img src="./assets/images/SVG/logo.svg" alt="LOGO">
+            <p class="text-center mt_-100 pointer-cursor"><img src="./assets/images/svg/logo.svg" alt="">
             </p>
             <p class="ms-4 ps-2 ff-inter fw-500 fs-12 mb-4">Marketplace</p>
     
@@ -78,7 +78,8 @@
                         <input type="text" placeholder="Search...">
                     </div>
                     <div class="ps-1">
-                        <a id="nightmode" href="/dark-mode.html"><img src="assets/images/SVG/SETTINGS-ICON.svg" alt="Settings-Icon"></a>
+                        <a id="nightmode" href="index.html"><img src="assets/images/png/moon.png" style="width: 20px; height: 20px;"
+                                alt="Settings-Icon"></a>
                     </div>
                 </div>
 
@@ -88,8 +89,8 @@
                     <div class="d-flex ps-5">
                         <img class="zooom" src="assets/images/png/Avatar.png" alt="Avtar">
                         <div class="mb-0 ps-2">
-                            <p class="mb-0 fs-14 ff-franklin fw-700 secondary-color">Cody Fisher</p>
-                            <p class="mb-0 fs-12 ff-franklin fw-600 light-color">kenzi.lawson@example.com</p>
+                            <p class="mb-0 fs-14 ff-franklin fw-700 white-color">Cody Fisher</p>
+                            <p class="mb-0 fs-12 ff-franklin fw-600 white-color">kenzi.lawson@example.com</p>
                         </div>
                     </div>
                 </div>
@@ -98,11 +99,10 @@
     </nav>
     <header>
         <div class="my-container pt-5">
-            <div class="row">
-                <div class="col-lg-8 col-12 ">
-                    <div class="box-2">
-
-                        <div class="row d-flex justify-content-center align-items-center">
+            <div class="row display_flex">
+                <div class="col-md-8 col-sm-9 col_12 display_flex">
+                    <div class=" box-2">
+                        <div class="row justify-content-center align-items-center">
                             <div class="col-sm-6 col-12">
                                 <div class="ps-4">
                                     <div class="d-flex justify-content-center flex-column">
@@ -150,7 +150,7 @@
 
                                 </div>
                             </div>
-                            <div class="col-sm-6 col-12 ">
+                            <div class="col-md-6 col-sm-9 display0flex">
                                 <div class="d-flex light-img-position">
                                     <img class="w-100 light-city-img" src="assets/images/png/light-city.png"
                                         alt="light-city">
@@ -159,54 +159,18 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
-                    <!-- ///////////New NFTs///////////// -->
-                    <h1 class="ff-inter fw-600 fs-16 grey pb-3">New NFTs</h1>
-                    <div class="card">
-                        <div class="row">
-                            <div class="col-4">
-                                <div class="p-2">
-                                    <img class="zooom" src="./assets/images/png/card_img_1.png" alt="">
-                                </div>
-                            </div>
-
-                            <div class="col-8 pt-2">
-                                <div class="px-2">
-                                    <p class="fs-7 fw-400 inter grey-3 mb-0">Metroverse Genesis</p>
-                                    <h1 class="fs-14 fw-700 grey-2 mb-0 pt-1">Block #1460</h1>
-                                    <p class="grey-3 fs-7 ff-inter fw-500 pt-2">Owned by <span
-                                            class="ff-inter fw-700 fs-7 color">BabyKee</span></p>
-                                </div>
-                                <div class="d-flex align-items-center justify-content-between px-2">
-                                    <div class="d-flex align-items-center gap-1">
-                                        <svg class="heart" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path fill-rule="evenodd" clip-rule="evenodd"
-                                                d="M1.91454 7.73221C1.1992 5.49888 2.0352 2.94621 4.37987 2.19088C5.6132 1.79288 6.97454 2.02755 7.99987 2.79888C8.96987 2.04888 10.3812 1.79555 11.6132 2.19088C13.9579 2.94621 14.7992 5.49888 14.0845 7.73221C12.9712 11.2722 7.99987 13.9989 7.99987 13.9989C7.99987 13.9989 3.0652 11.3135 1.91454 7.73221Z"
-                                                stroke="#130F26" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                            <path d="M10.6666 4.46666C11.38 4.69733 11.884 5.33399 11.9446 6.08133" stroke="#130F26" stroke-width="1.5"
-                                                stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
-
-                                        <p class="navy ff-inter fs-14 fw-500 mb-0">1K</p>
-                                    </div>
-                                    <div class="d-flex align-items-center gap-1 pe-2">
-                                        <img src="./assets/images/png/three-line.png" alt="three-line">
-                                        <p class="navy ff-inter fs-14 fw-500 mb-0">21</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="pt-3">
+                <div class="col-lg-4 col-md-5 col-sm-6">
+                    <div class=" pad-34">
+                        <!-- ///////////New NFTs///////////// -->
+                        <h1 class="ff-inter fw-600 fs-16 white-color pb-3">New NFTs</h1>
                         <div class="card">
                             <div class="row">
                                 <div class="col-4">
                                     <div class="p-2">
-                                        <img class="zooom" src="./assets/images/png/card_img_2.png" alt="">
+                                        <img class="zooom" src="./assets/images/png/card_img_1.png" alt="">
                                     </div>
                                 </div>
-
+                    
                                 <div class="col-8 pt-2">
                                     <div class="px-2">
                                         <p class="fs-7 fw-400 inter grey-3 mb-0">Metroverse Genesis</p>
@@ -216,14 +180,15 @@
                                     </div>
                                     <div class="d-flex align-items-center justify-content-between px-2">
                                         <div class="d-flex align-items-center gap-1">
-                                            <svg class="heart" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <svg class="heart" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
                                                 <path fill-rule="evenodd" clip-rule="evenodd"
                                                     d="M1.91454 7.73221C1.1992 5.49888 2.0352 2.94621 4.37987 2.19088C5.6132 1.79288 6.97454 2.02755 7.99987 2.79888C8.96987 2.04888 10.3812 1.79555 11.6132 2.19088C13.9579 2.94621 14.7992 5.49888 14.0845 7.73221C12.9712 11.2722 7.99987 13.9989 7.99987 13.9989C7.99987 13.9989 3.0652 11.3135 1.91454 7.73221Z"
                                                     stroke="#130F26" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                <path d="M10.6666 4.46666C11.38 4.69733 11.884 5.33399 11.9446 6.08133" stroke="#130F26" stroke-width="1.5"
-                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                <path d="M10.6666 4.46666C11.38 4.69733 11.884 5.33399 11.9446 6.08133" stroke="#130F26"
+                                                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                                             </svg>
-
+                    
                                             <p class="navy ff-inter fs-14 fw-500 mb-0">1K</p>
                                         </div>
                                         <div class="d-flex align-items-center gap-1 pe-2">
@@ -234,39 +199,81 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="pt-3">
-                        <div class="card">
-                            <div class="row">
-                                <div class="col-4">
-                                    <div class="p-2">
-                                        <img class="zooom" src="./assets/images/png/card_img_3.png" alt="">
+                    
+                        <div class="pt-3">
+                            <div class="card">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <div class="p-2">
+                                            <img class="zooom" src="./assets/images/png/card_img_2.png" alt="">
+                                        </div>
+                                    </div>
+                    
+                                    <div class="col-8 pt-2">
+                                        <div class="px-2">
+                                            <p class="fs-7 fw-400 inter grey-3 mb-0">Metroverse Genesis</p>
+                                            <h1 class="fs-14 fw-700 grey-2 mb-0 pt-1">Block #1460</h1>
+                                            <p class="grey-3 fs-7 ff-inter fw-500 pt-2">Owned by <span
+                                                    class="ff-inter fw-700 fs-7 color">BabyKee</span></p>
+                                        </div>
+                                        <div class="d-flex align-items-center justify-content-between px-2">
+                                            <div class="d-flex align-items-center gap-1">
+                                                <svg class="heart" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M1.91454 7.73221C1.1992 5.49888 2.0352 2.94621 4.37987 2.19088C5.6132 1.79288 6.97454 2.02755 7.99987 2.79888C8.96987 2.04888 10.3812 1.79555 11.6132 2.19088C13.9579 2.94621 14.7992 5.49888 14.0845 7.73221C12.9712 11.2722 7.99987 13.9989 7.99987 13.9989C7.99987 13.9989 3.0652 11.3135 1.91454 7.73221Z"
+                                                        stroke="#130F26" stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                    <path d="M10.6666 4.46666C11.38 4.69733 11.884 5.33399 11.9446 6.08133" stroke="#130F26"
+                                                        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                </svg>
+                    
+                                                <p class="navy ff-inter fs-14 fw-500 mb-0">1K</p>
+                                            </div>
+                                            <div class="d-flex align-items-center gap-1 pe-2">
+                                                <img src="./assets/images/png/three-line.png" alt="three-line">
+                                                <p class="navy ff-inter fs-14 fw-500 mb-0">21</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-
-                                <div class="col-8 pt-2">
-                                    <div class="px-2">
-                                        <p class="fs-7 fw-400 inter grey-3 mb-0">Metroverse Genesis</p>
-                                        <h1 class="fs-14 fw-700 grey-2 mb-0 pt-1">Block #1460</h1>
-                                        <p class="grey-3 fs-7 ff-inter fw-500 pt-2">Owned by <span
-                                                class="ff-inter fw-700 fs-7 color">BabyKee</span></p>
-                                    </div>
-                                    <div class="d-flex align-items-center justify-content-between px-2">
-                                        <div class="d-flex align-items-center gap-1">
-                                            <svg class="heart" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                    d="M1.91454 7.73221C1.1992 5.49888 2.0352 2.94621 4.37987 2.19088C5.6132 1.79288 6.97454 2.02755 7.99987 2.79888C8.96987 2.04888 10.3812 1.79555 11.6132 2.19088C13.9579 2.94621 14.7992 5.49888 14.0845 7.73221C12.9712 11.2722 7.99987 13.9989 7.99987 13.9989C7.99987 13.9989 3.0652 11.3135 1.91454 7.73221Z"
-                                                    stroke="#130F26" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                <path d="M10.6666 4.46666C11.38 4.69733 11.884 5.33399 11.9446 6.08133" stroke="#130F26" stroke-width="1.5"
-                                                    stroke-linecap="round" stroke-linejoin="round" />
-                                            </svg>
-
-                                            <p class="navy ff-inter fs-14 fw-500 mb-0">1K</p>
+                            </div>
+                        </div>
+                    
+                        <div class="pt-3">
+                            <div class="card">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <div class="p-2">
+                                            <img class="zooom" src="./assets/images/png/card_img_3.png" alt="">
                                         </div>
-                                        <div class="d-flex align-items-center gap-1 pe-2">
-                                            <img src="./assets/images/png/three-line.png" alt="three-line">
-                                            <p class="navy ff-inter fs-14 fw-500 mb-0">21</p>
+                                    </div>
+                    
+                                    <div class="col-8 pt-2">
+                                        <div class="px-2">
+                                            <p class="fs-7 fw-400 inter grey-3 mb-0">Metroverse Genesis</p>
+                                            <h1 class="fs-14 fw-700 grey-2 mb-0 pt-1">Block #1460</h1>
+                                            <p class="grey-3 fs-7 ff-inter fw-500 pt-2">Owned by <span
+                                                    class="ff-inter fw-700 fs-7 color">BabyKee</span></p>
+                                        </div>
+                                        <div class="d-flex align-items-center justify-content-between px-2">
+                                            <div class="d-flex align-items-center gap-1">
+                                                <svg class="heart" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M1.91454 7.73221C1.1992 5.49888 2.0352 2.94621 4.37987 2.19088C5.6132 1.79288 6.97454 2.02755 7.99987 2.79888C8.96987 2.04888 10.3812 1.79555 11.6132 2.19088C13.9579 2.94621 14.7992 5.49888 14.0845 7.73221C12.9712 11.2722 7.99987 13.9989 7.99987 13.9989C7.99987 13.9989 3.0652 11.3135 1.91454 7.73221Z"
+                                                        stroke="#130F26" stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                    <path d="M10.6666 4.46666C11.38 4.69733 11.884 5.33399 11.9446 6.08133" stroke="#130F26"
+                                                        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                </svg>
+                    
+                                                <p class="navy ff-inter fs-14 fw-500 mb-0">1K</p>
+                                            </div>
+                                            <div class="d-flex align-items-center gap-1 pe-2">
+                                                <img src="./assets/images/png/three-line.png" alt="three-line">
+                                                <p class="navy ff-inter fs-14 fw-500 mb-0">21</p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -285,20 +292,20 @@
             <div class="row">
                 <div class="col-8">
                     <div class="d-flex justify-content-between mb-3 mt-5">
-                        <h3 class="ff-inter fw-600 fs-16">Top Collections</h3>
+                        <h3 class="ff-inter fw-600 fs-16 white-color">Top Collections</h3>
                         <div class="d-flex gap-3 cursor-p">
-                            <h3 class="ff-inter fw-600 fs-16">View All</h3>
+                            <h3 class="ff-inter fw-600 fs-16 white-color">View All</h3>
                             <svg class="me-4" width="16" height="16" viewBox="0 0 16 16" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
-                                <path d="M13.1666 7.81713L3.16663 7.81713" stroke="#130F26" stroke-width="1.5"
+                                <path d="M13.1666 7.81713L3.16663 7.81713" stroke="white" stroke-width="1.5"
                                     stroke-linecap="round" stroke-linejoin="round" />
-                                <path d="M9.13342 3.80087L13.1668 7.81687L9.13342 11.8335" stroke="#130F26"
+                                <path d="M9.13342 3.80087L13.1668 7.81687L9.13342 11.8335" stroke="white"
                                     stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                             </svg>
 
                         </div>
                     </div>
-                    <div class="d-flex justify-content-center align-items-cente">
+                    <div class="d-flex justify-content-center align-items-center">
                         <div class="col-4 pe-4">
                             <div class="img-radius position-relative overlay-img">
                                 <a href="#"><img class="jozo w-100" src="/assets/images/png/jozo.png" alt="jozo"></a>
@@ -351,20 +358,20 @@
                         </div>
                     </div>
                     <div class="d-flex justify-content-between mt-5 mb-3">
-                        <h3 class="ff-inter fw-600 fs-16">Top Collections</h3>
+                        <h3 class="ff-inter fw-600 fs-16 white-color">Top Collections</h3>
                         <div class="d-flex gap-3 cursor-p">
-                            <h3 class="ff-inter fw-600 fs-16">View All</h3>
+                            <h3 class="ff-inter fw-600 fs-16 white-color ">View All</h3>
                             <svg class="me-4" width="16" height="16" viewBox="0 0 16 16" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
-                                <path d="M13.1666 7.81713L3.16663 7.81713" stroke="#130F26" stroke-width="1.5"
+                                <path d="M13.1666 7.81713L3.16663 7.81713" stroke="white" stroke-width="1.5"
                                     stroke-linecap="round" stroke-linejoin="round" />
-                                <path d="M9.13342 3.80087L13.1668 7.81687L9.13342 11.8335" stroke="#130F26"
+                                <path d="M9.13342 3.80087L13.1668 7.81687L9.13342 11.8335" stroke="white"
                                     stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                             </svg>
 
                         </div>
                     </div>
-                    <div class="d-flex justify-content-center align-items-cente">
+                    <div class="d-flex justify-content-center align-items-center">
                         <div class="col-4 pe-4">
                             <div class="img-radius position-relative overlay-img">
                                 <a href="#"><img class="jozo w-100" src="/assets/images/png/noryoz.png"
@@ -513,18 +520,6 @@
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
     <script src="assets/js/script.js"></script>
-    <script>
-        var nightmode = document.getElementById("nightmode")
-            nightmode.onclick = function () {
-                document.body.classList.toggle("dark-theme");
-                if (document.body.classList.contains("darktheme")) {
-                    nightmode.src = "assets/images/png/light.png"
-                } else {
-                    nightmode.src = "assets/images/SVG/SETTINGS-ICON.svg"
-
-                }
-            }
-    </script>
 </body>
 
 </html>
